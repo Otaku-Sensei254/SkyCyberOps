@@ -1,0 +1,566 @@
+.hero {
+  padding: 5rem 1rem;
+  text-align: center;
+  width: 99vw;
+  position: relative;
+  top: -4rem;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+.tpage {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem;
+  align-items: center;
+}
+/* HERO TOP */
+.heroTop {
+  position: relative;
+  top: 4rem;
+  left: 0rem;
+  text-align: center;
+  margin-bottom: 4rem;
+  padding: 2rem;
+
+  border-radius: 12px;
+  width: 600px;
+}
+
+.hero-title {
+  font-size: 2.8rem;
+  margin-bottom: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: 00a8ff;
+}
+
+.subtext {
+  font-size: 1.15rem;
+
+  max-width: 720px;
+  margin: 0 auto 2rem;
+  line-height: 1.6;
+}
+
+.hero-btn {
+  display: inline-block;
+  background: #00a8ff;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.3s ease, transform 0.2s ease;
+  margin-bottom: 2rem;
+}
+
+.hero-btn:hover {
+  color: 00a8ff;
+  background: white;
+  border: 2px solid #00a8ff;
+  transform: scale(1.03);
+}
+
+.trust-badges {
+  color: #aaa;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+.trust-badges p {
+  margin: 0.25rem 0;
+}
+
+.heroBotm {
+  position: relative;
+  top: 19rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem 2rem;
+  background-color: var(--back);
+  color: white;
+  flex-wrap: wrap;
+  box-shadow: var(--shadow);
+}
+
+.value-props {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 600px;
+}
+
+.prop h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.prop p {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: var(--dark-text);
+  margin-bottom: 1rem;
+}
+
+.prop button {
+  background-color: #00a8ff;
+  color: white;
+  border: 2px solid transparent;
+  padding: 0.6rem 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.prop button:hover {
+  background-color: transparent;
+  border: 2px solid var(--texts);
+  color: var(--texts);
+}
+
+.right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.vidRight {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+}
+/* Responsive */
+.skyline-banner {
+  position: relative;
+
+  top: 20rem;
+  right: 1rem;
+  font-size: 7rem;
+  font-weight: 800;
+  text-align: center;
+  margin: 5rem auto 12rem;
+  padding: 1rem 1rem;
+  max-width: 90%;
+  line-height: 1.2;
+  text-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+}
+
+@media (max-width: 320px) {
+  .heroTop {
+    position: relative;
+    top: 5rem;
+
+    width: 300px;
+  }
+  .hero-title {
+    position: relative;
+    right: 1rem;
+    width: fit-content;
+    font-size: 3rem;
+  }
+
+  .subtext {
+    position: relative;
+    right: 1rem;
+    font-size: 1rem;
+    width: 280px;
+  }
+
+  .hero-btn {
+    width: 250px;
+    font-size: 0.95rem;
+    padding: 0.6rem 1.2rem;
+  }
+
+  .trust-badges {
+    position: relative;
+    right: 1rem;
+    font-size: 0.8rem;
+    width: 280px;
+  }
+  .skyline-banner {
+    position: relative;
+    left: 0rem;
+    font-size: 2rem;
+  }
+  .tpage {
+    position: relative;
+    right: rem;
+    top: -5rem;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .heroBotm {
+    display: flex;
+    flex-direction: column;
+  }
+  .video-bg {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    top: 4rem;
+    right: 0;
+  }
+  .heroBotm .vidRight {
+    position: relative;
+    top: 2rem;
+  }
+  .heroBotm .value-props {
+    position: relative;
+    top: 0rem;
+  }
+}
+
+/* Mobile Responsiveness */
+@media (min-width: 375px) {
+  .heroTop {
+    padding: 0;
+    width: fit-content;
+  }
+  .video-bg {
+    width: 300px;
+    height: 200px;
+  }
+  .hero-title {
+    position: relative;
+    top: -3rem;
+    font-size: 2.5rem;
+  }
+  .subtext {
+    position: relative;
+    top: -2rem;
+    font-size: 1.2rem;
+    max-width: 90%;
+  }
+  .tpage {
+    position: relative;
+    left: 1rem;
+    text-align: center;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+  }
+  .trust-badges {
+    position: relative;
+
+    font-size: 0.9rem;
+    text-align: center;
+    width: 300px;
+  }
+  .heroBotm {
+    width: auto;
+    position: relative;
+    top: 7rem;
+    flex-direction: column-reverse;
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+  .hero-btn {
+    width: 250px;
+  }
+  .right,
+  .value-props {
+    width: 100%;
+    max-width: 100%;
+  }
+  .heroBotm .vidRight {
+    position: relative;
+    top: 0rem;
+  }
+  .heroBotm .value-props {
+    position: relative;
+    top: 0rem;
+  }
+  .skyline-banner {
+    position: relative;
+    left: 0rem;
+    font-size: 3rem;
+  }
+}
+@media (min-width: 425px) {
+  .heroTop {
+    padding: 0;
+    width: fit-content;
+  }
+  .hero-title {
+    position: relative;
+    top: -3rem;
+    font-size: 3rem;
+  }
+  .subtext {
+    position: relative;
+    top: -2rem;
+    font-size: 1.2rem;
+    max-width: 100%;
+  }
+  .tpage {
+    position: relative;
+    left: 2.4rem;
+    text-align: center;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+  }
+  .trust-badges {
+    position: relative;
+
+    font-size: 1rem;
+    text-align: center;
+  }
+  .heroBotm {
+    width: auto;
+    position: relative;
+    top: 7rem;
+    flex-direction: column-reverse;
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+  .hero-btn {
+    width: 250px;
+  }
+  .right,
+  .value-props {
+    width: 100%;
+    max-width: 100%;
+  }
+  .skyline-banner {
+    position: relative;
+    left: 0rem;
+    font-size: 3rem;
+  }
+}
+/*
+@media (min-width: 600px) {
+  .heroTop {
+    padding: 0;
+    width: fit-content;
+  }
+  .hero-title {
+    position: relative;
+    top: -3rem;
+    left: 10rem;
+    width: 700px;
+    font-size: 3rem;
+  }
+  .subtext {
+    position: relative;
+    top: -2rem;
+    font-size: 1.2rem;
+    max-width: 100%;
+    left: 10rem;
+  }
+  .tpage {
+    position: relative;
+    left: 2.4rem;
+    text-align: center;
+    width: 320px;
+    display: flex;
+  }
+  .trust-badges {
+    position: relative;
+    left: 10rem;
+    font-size: 1rem;
+    width: 100%;
+    text-align: center;
+  }
+  .heroBotm {
+    width: auto;
+    position: relative;
+    top: 7rem;
+    flex-direction: column-reverse;
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+  .hero-btn {
+    width: 500px;
+    position: relative;
+    left: 10rem;
+  }
+  .right,
+  .value-props {
+    width: 100%;
+    max-width: 100%;
+  }
+  .skyline-banner {
+    position: relative;
+    left: 0rem;
+    font-size: 3rem;
+  }
+  .video-bg {
+    position: relative;
+    left: 10rem;
+    width: 500px;
+    height: 300px;
+  }
+}
+  */
+@media (min-width: 768px) {
+  .heroTop {
+    padding: 0;
+    text-align: center;
+    align-items: center;
+    width: fit-content;
+  }
+  .hero-title {
+    position: relative;
+    top: -3rem;
+    font-size: 5rem;
+  }
+  .subtext {
+    position: relative;
+    top: -2rem;
+    width: 400px;
+    font-size: 1.6rem;
+    max-width: 100%;
+  }
+  .tpage {
+    align-items: center;
+    text-align: center;
+    position: relative;
+    left: 0;
+    text-align: center;
+    width: 768px;
+    display: flex;
+    flex-direction: column;
+  }
+  .video-bg {
+    width: 600px;
+    height: 500px;
+  }
+  .trust-badges {
+    position: relative;
+    width: 600px;
+    font-size: 1.5rem;
+    text-align: center;
+    left: 4rem;
+  }
+  .heroBotm {
+    width: auto;
+    position: relative;
+    top: 7rem;
+    flex-direction: column-reverse;
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+  .hero-btn {
+    width: 400px;
+  }
+  .right,
+  .value-props {
+    width: 100%;
+    max-width: 100%;
+  }
+  .skyline-banner {
+    position: relative;
+    left: 0rem;
+    font-size: 3rem;
+  }
+  .hero {
+    width: 100%;
+  }
+}
+@media (min-width: 1024px) {
+  .heroTop {
+    padding: 0;
+    text-align: center;
+    align-items: center;
+    width: fit-content;
+  }
+  .hero-title {
+    position: relative;
+    top: -3rem;
+    font-size: 3rem;
+  }
+  .subtext {
+    position: relative;
+    top: -2rem;
+    width: 500px;
+    font-size: 1.6rem;
+    max-width: 100%;
+  }
+  .tpage {
+    align-items: center;
+    text-align: center;
+    position: relative;
+    left: 0;
+    text-align: center;
+    width: 768px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10rem;
+    flex-direction: row;
+  }
+  .video-bg {
+    position: relative;
+    top: -5rem;
+    right: 1rem;
+    width: 400px;
+    height: 300px;
+  }
+  .trust-badges {
+    position: relative;
+    width: 600px;
+    font-size: 1rem;
+    text-align: center;
+    left: 4rem;
+  }
+  .heroBotm {
+    width: auto;
+    position: relative;
+    top: 7rem;
+    left: 8rem;
+    flex-direction: column-reverse;
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+  .hero-btn {
+    width: 400px;
+  }
+  .right,
+  .value-props {
+    width: 100%;
+    max-width: 100%;
+  }
+  .skyline-banner {
+    display: flex;
+    position: relative;
+    left: 8rem;
+    flex: 2;
+    top: 3rem;
+    font-size: 5.3rem;
+  }
+  .hero {
+    width: 100%;
+  }
+}
+@media (min-width: 1440px) {
+  .hero {
+    width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+  0%,
+  100% {
+    border-color: transparent;
+  }
+  50% {
+    border-color: white;
+  }
+}
+
+/* Responsive */

@@ -1,0 +1,163 @@
+.contactUs {
+  position: relative;
+  top: 2rem;
+  left: 10rem;
+  margin: 2.5rem;
+  flex-direction: column;
+  border: 1px solid white;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  box-shadow: var(--shadow);
+}
+.send {
+  position: relative;
+  top: 1.5rem;
+  width: fit-content;
+  border-radius: 5px;
+  border: 2px solid transparent;
+}
+.m1 {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.m2 {
+  position: relative;
+  top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+textarea {
+  border: none;
+  width: 600px;
+  background-color: var(--dark-text);
+  border-radius: 4px;
+  padding: 4px 8px;
+  border: none;
+  color: var(--gray-light);
+  border-bottom: var(--dark-text);
+}
+@media (max-width: 320px) {
+  .contactUs {
+    position: relative;
+    left: -1rem;
+    top: -2rem;
+    display: flex;
+  }
+  .contactBox {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+  }
+  .inputs {
+    display: flex;
+    flex-direction: column;
+  }
+  .m1 {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    flex-direction: column;
+  }
+}
+@media (min-width: 375px) {
+  .contactUs {
+    width: 100%;
+    position: relative;
+    left: -1rem;
+    top: -2rem;
+    display: flex;
+  }
+  .contactBox {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+  }
+  .inputs {
+    display: flex;
+    flex-direction: column;
+  }
+  .m1 {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    flex-direction: column;
+  }
+}
+@media (min-width: 425px) {
+  .contactUs {
+    width: 100%;
+    position: relative;
+    left: 0rem;
+    top: -2rem;
+    display: flex;
+  }
+  .contactBox {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .inputs {
+    display: flex;
+    width: 300px;
+    flex-direction: column;
+  }
+  .m1 {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    flex-direction: column;
+  }
+}
+@media (min-width: 768px) {
+  .contactUs {
+    position: relative;
+    left: -1rem;
+    top: -2rem;
+    display: flex;
+    width: 100%;
+  }
+  .contactBox {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .inputs {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .m1 {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    flex-direction: column;
+  }
+}
+@media (min-width: 1024px) {
+  .contactUs {
+    position: relative;
+    left: 20rem;
+    top: -2rem;
+    display: flex;
+    width: 40%;
+  }
+  .contactBox {
+    display: flex;
+    flex-direction: column;
+  }
+  .inputs {
+    display: flex;
+    flex-direction: column;
+  }
+  .m1 {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    flex-direction: column;
+  }
+}

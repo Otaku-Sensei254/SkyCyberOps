@@ -1,0 +1,190 @@
+.About-container {
+  position: relative;
+  top: 2rem;
+  left: 0rem;
+  padding: 40px 20px;
+  margin: 2.3rem;
+  margin-left: 2.3rem;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.abtH1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  text-align: center;
+
+  font-family: "Poppins", sans-serif;
+}
+
+.abtP {
+  font-size: 1.05rem;
+  font-family: "Poppins", sans-serif;
+
+  line-height: 1.7;
+  max-width: 700px;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+.top,
+.mission,
+.listing {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+}
+
+.SideImg {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 16px;
+  object-fit: cover;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.teaming {
+  max-height: 300px;
+  border-radius: 16px;
+  object-fit: cover;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.mission img,
+.listing img {
+  flex: 1;
+  max-width: 400px;
+}
+
+.mission p,
+.listing ul {
+  flex: 1;
+}
+
+.listing ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+
+  line-height: 1.6;
+}
+
+.why h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.why li {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  margin: 0 auto;
+  max-width: 800px;
+  font-size: 1rem;
+  line-height: 1.6;
+
+  text-align: left;
+}
+.Mishon {
+  text-align: center;
+}
+.vision {
+  margin-top: 3rem;
+  text-align: center;
+  .v2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+}
+
+.vision h2 {
+  position: relative;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.vision .abtP {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.vision .tagline {
+  display: block;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  font-style: italic;
+  color: #ffd700;
+}
+
+/* Responsive Styling */
+@media screen and (max-width: 768px) {
+  .About-container {
+    position: relative;
+    top: -2rem;
+    left: 0rem;
+    padding: 40px 20px;
+    margin: 2.3rem;
+    margin-left: 2.3rem;
+
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .top,
+  .mission,
+  .listing {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .abtP,
+  .listing li,
+  .why li {
+    text-align: left;
+    max-width: 100%;
+  }
+
+  .SideImg,
+  .teaming {
+    width: 250px;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .abtH1 {
+    font-size: 2rem;
+  }
+  .v2 {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (min-width: 1024px) {
+  .top,
+  .mission,
+  .listing {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-direction: row;
+  }
+  .abtP,
+  .listing li,
+  .why li {
+    text-align: left;
+    max-width: 600px;
+  }
+  .SideImg,
+  .teaming {
+    width: 400px;
+    max-width: 100%;
+    height: 300px;
+  }
+}

@@ -1,0 +1,372 @@
+https://www.youtube.com/watch?v=S2kymv60ndQ
+https://www.youtube.com/watch?v=DPI0DenM45I
+
+https://shorturl.at/WZljQ
+https://shorturl.at/wQKW7
+https://shorturl.at/CP4Fc
+https://shorturl.at/o0qKJ
+
+Where to Use Each Color
+Element	Color	Hex/Code
+Background	Dark Gradient	#0a1f44 → #000000
+Primary Buttons	Electric Blue	#00a8ff
+Emergency Buttons	Dark Red	#d1333a
+Text	Pure White	#ffffff
+Borders/Glows	Blue Glow	rgba(0, 168, 255, 0.3)
+
+ <div className="value-props">
+            <div className="prop">
+              <h3>White-Box Testing</h3>
+              <p>Full system visibility to eradicate hidden vulnerabilities.</p>
+            </div>
+            <div className="prop">
+              <h3>Black-Box Testing</h3>
+              <p>Real-world attack simulations with zero prior knowledge.</p>
+            </div>
+            <div className="prop">
+              <h3>Hybrid Engagements</h3>
+              <p>Combining both approaches for layered security insights.</p>
+            </div>
+          </div>
+
+
+
+          import React from "react";
+import "../styles/Footer.css";
+
+const Footer = () => {
+  return (
+    <footer className="footer-container">
+      <div className="footer-content">
+        <div>
+          <h3>SkySentinel CyberOps</h3>
+          <p>Breach Before the Attackers Do</p>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <p>Email: contact@sykcapital.com</p>
+          <p>Phone: +254 712 345 678</p>
+        </div>
+        <div>
+          <h4>Follow Us</h4>
+          <p>Instagram: @sykcapital</p>
+          <p>Twitter: @sykcapital</p>
+        </div>
+      </div>
+      <p className="footer-bottom">© 2025 sykCapital. All Rights Reserved.</p>
+    </footer>
+  );
+};
+
+export default Footer;
+
+
+
+///////////////////////////////////////////////////////////////////////////
+/* === CrimsonShield Global Theme Variables === */
+:root {
+  --red-main: #D32F2F;
+  --red-dark: #B71C1C;
+  --teal-accent: #00ACC1;
+  --white: #ffffff;
+  --gray-light: #f1f1f1;
+  --gray-dark: #121212;
+  --bg-dark: #0a192f;
+
+  background: var(--bg-dark);
+  color: var(--white);
+  font-family: 'Cascadia Mono', monospace;
+  color-scheme: light dark;
+}
+
+body {
+  margin: 0;
+  background: var(--bg-dark);
+  color: var(--white);
+  min-height: 100vh;
+  display: flex;
+  place-items: center;
+}
+
+/* === Buttons === */
+button {
+  font-size: 1rem;
+  background-color: var(--red-main);
+  color: var(--white);
+  font-weight: 700;
+  border-radius: 30px;
+  border: none;
+  padding: 10px 20px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--white);
+  color: var(--red-main);
+  border: 2px solid var(--red-main);
+  transform: translateY(-2px);
+}
+
+/* === Hero Section === */
+.heroTop {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.85), rgba(20, 20, 20, 0.85));
+  box-shadow: 0 0 30px rgba(211, 47, 47, 0.5);
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.hero-title {
+  color: var(--red-main);
+  font-size: 2.8rem;
+  font-weight: 700;
+  text-shadow: 0 0 5px rgba(211, 47, 47, 0.3);
+}
+
+.subtext {
+  color: var(--gray-light);
+  font-size: 1.15rem;
+  max-width: 720px;
+  margin: 0 auto 2rem;
+  line-height: 1.6;
+}
+
+.hero-btn {
+  background: var(--red-main);
+  color: var(--white);
+  padding: 0.75rem 1.5rem;
+  font-weight: bold;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.hero-btn:hover {
+  background: var(--white);
+  color: var(--red-main);
+}
+
+.trust-badges p {
+  color: var(--gray-light);
+  font-size: 0.95rem;
+}
+
+/* === Hero Bottom === */
+.heroBotm {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 4rem 2rem;
+  flex-wrap: wrap;
+}
+
+.value-props .prop h3 {
+  color: var(--red-main);
+  font-size: 1.5rem;
+}
+
+.value-props .prop p {
+  color: var(--gray-light);
+  font-size: 1rem;
+}
+
+.value-props .prop button {
+  background-color: var(--red-main);
+}
+
+.value-props .prop button:hover {
+  background-color: var(--red-dark);
+}
+
+.vidRight {
+  box-shadow: 0 0 20px rgba(211, 47, 47, 0.5);
+  border-radius: 12px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.skyline-banner {
+  color: var(--white);
+  text-shadow: 0 0 10px var(--red-main);
+  font-size: 5rem;
+  text-align: center;
+  margin: 5rem auto;
+}
+
+/* === About Section === */
+.About-container {
+  padding: 40px 20px;
+  max-width: 1280px;
+  margin: auto;
+  color: white;
+  border: 1px solid white;
+}
+
+.abtP {
+  color: var(--gray-light);
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+.vision .tagline {
+  color: var(--teal-accent);
+  font-style: italic;
+  font-size: 1.2rem;
+}
+
+/* === Services Page === */
+.boxbox {
+  background: var(--gray-dark);
+  box-shadow: 0 0 20px rgba(211, 47, 47, 0.5);
+  border-bottom: 8px solid var(--red-main);
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.box {
+  border: 2px solid var(--red-main);
+  box-shadow: 0 0 15px rgba(211, 47, 47, 0.5);
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.box h4 {
+  color: var(--red-main);
+}
+
+.listing ul {
+  color: var(--gray-light);
+  font-size: 1rem;
+  line-height: 1.6;
+  list-style: disc;
+  padding-left: 1.5rem;
+}
+
+/* === Media Queries === */
+@media screen and (max-width: 768px) {
+  .hero-title { font-size: 2rem; }
+  .skyline-banner { font-size: 3rem; }
+  .hero-btn { font-size: 0.95rem; padding: 0.6rem 1.2rem; }
+}
+
+
+  --primary-bg: #ffffff;              /* White background */
+  --primary-text: #0a1f44;            /* Navy for text */
+  --accent-blue: #0066cc;             /* Deeper blue (better contrast on white) */
+  --accent-teal: #0088a3;             /* Saturated teal */
+  --alert-red: #cc0000;               /* Brighter red for alerts */
+  --border-gray: #e0e0e0;             /* Subtle borders */
+  --card-bg: #f8f9fa;                 /* Light gray for containers */
+
+
+.footer-container {
+  background: var(--grey-light);
+  color: #ccc;
+  padding: 2rem 1rem;
+  font-size: 0.9rem;
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  box-shadow: var(--shadow);
+}
+...........................................................................
+blog
+1. "Cybercrime in Kenya: What Happened Between 2018 and 2023?"
+What You’ll Learn:
+
+How cyberattacks in Kenya have changed over the years.
+
+The most common scams (like fake emails and mobile fraud).
+
+How much money Kenyans have lost to hackers.
+
+What the government and companies are doing to fight cybercrime.
+
+Quick Facts:
+
+2021: Kenya detected over 56 million cyber threats—hackers were very active!
+
+2022: Ransomware attacks (where hackers lock your files for money) increased by 35%.
+
+2023: Mobile banking scams (like fake M-Pesa messages) rose by 40%.
+
+2. "Is Your M-Pesa Safe? The Truth About Mobile Fraud in Kenya"
+What You’ll Learn:
+
+How scammers trick people into sending them money.
+
+Real-life stories of Kenyans who lost cash to fraudsters.
+
+Simple ways to protect your mobile money.
+
+Shocking Numbers:
+
+2020: Kenyans lost Ksh 2.1 billion to mobile scams.
+
+2022: The government shut down 500+ fake loan apps stealing data.
+
+Protect Yourself:
+✅ Never share your M-Pesa PIN.
+✅ Beware of "free money" messages—they’re scams!
+
+3. "Who Are Kenya’s Hackers? Inside the World of Cybercriminals"
+What You’ll Learn:
+
+The difference between good hackers (who help fix security) and bad hackers (who steal).
+
+Common tricks hackers use (like fake job offers & WhatsApp scams).
+
+How businesses can avoid being hacked.
+
+Did You Know?
+
+2019: Over 28 million hacking attempts were recorded in Kenya.
+
+2021: 60% of attacks targeted small businesses.
+
+4. "Are Kenya’s Government and Big Companies Safe from Hackers?"
+What You’ll Learn:
+
+Which government websites and banks have been hacked.
+
+Why many companies in Kenya don’t have strong cybersecurity.
+
+New laws (like the Data Protection Act) that help keep data safe.
+
+Real Cases:
+
+2020: Hackers attacked the Kenya National Bureau of Statistics.
+
+2023: 70% of Kenyan companies still don’t have good security plans.
+
+5. "What’s Next? Kenya’s Biggest Cyber Threats (2024–2026)"
+What You’ll Learn:
+
+New dangers like AI scams (fake voices/videos) and 5G hacking.
+
+Why more people will need cyber insurance.
+
+How to stay safe in the coming years.
+
+Future Predictions:
+
+By 2025: AI-powered scams will increase by 50%.
+
+By 2026: More Kenyans will buy cyber insurance (+30%).
+
+6. "Simple Ways to Avoid Cybercrime in Kenya (2024 Guide)"
+What You’ll Learn:
+
+Easy tips to keep hackers away from your phone & computer.
+
+How to spot fake emails & messages.
+
+Where to report cybercrime in Kenya (KE-CIRT).
+
+Must-Do Safety Steps:
+🔒 Use strong passwords (mix letters, numbers & symbols).
+📱 Enable two-factor authentication (2FA) on all accounts.
+❌ Never click suspicious links—even from "friends."

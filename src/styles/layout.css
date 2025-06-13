@@ -1,0 +1,42 @@
+.layout {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 1250px;
+}
+
+@media (max-width: 320px) {
+  .layout {
+    width: 320px;
+  }
+}
+@media (min-width: 360px) {
+  .layout {
+    width: 100%;
+  }
+}
+@media (min-width: 375px) {
+  .layout {
+    width: 100%;
+  }
+}
+@media (min-width: 425px) {
+  .layout {
+    width: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .layout {
+    width: 100%;
+  }
+}
+@media (min-width: 1024px) {
+  .layout {
+    width: 100%;
+  }
+}
+@media (min-width: 1440px) {
+  .layout {
+    width: 1440px;
+  }
+}
